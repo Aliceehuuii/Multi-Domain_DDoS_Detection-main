@@ -1,0 +1,357 @@
+{
+    "application": {
+        "dpctl": "",
+        "ipBase": "10.0.0.0/8",
+        "netflow": {
+            "nflowAddId": "0",
+            "nflowTarget": "",
+            "nflowTimeout": "600"
+        },
+        "openFlowVersions": {
+            "ovsOf10": "1",
+            "ovsOf11": "0",
+            "ovsOf12": "0",
+            "ovsOf13": "1"
+        },
+        "sflow": {
+            "sflowHeader": "128",
+            "sflowPolling": "30",
+            "sflowSampling": "400",
+            "sflowTarget": ""
+        },
+        "startCLI": "1",
+        "switchType": "ovs",
+        "terminalType": "xterm"
+    },
+    "controllers": [
+        {
+            "opts": {
+                "controllerProtocol": "tcp",
+                "controllerType": "remote",
+                "hostname": "c1",
+                "remoteIP": "127.0.0.1",
+                "remotePort": 6633
+            },
+            "x": "456.0",
+            "y": "29.0"
+        }
+    ],
+    "hosts": [
+        {
+            "number": "5",
+            "opts": {
+                "hostname": "h5",
+                "ip": "10.1.2.2",
+                "nodeNum": 5,
+                "sched": "host"
+            },
+            "x": "363.0",
+            "y": "384.0"
+        },
+        {
+            "number": "11",
+            "opts": {
+                "hostname": "h11",
+                "ip": "10.10.20.2",
+                "nodeNum": 11,
+                "sched": "host"
+            },
+            "x": "936.0",
+            "y": "373.0"
+        },
+        {
+            "number": "7",
+            "opts": {
+                "hostname": "h7",
+                "ip": "10.10.10.1",
+                "nodeNum": 7,
+                "sched": "host"
+            },
+            "x": "576.0",
+            "y": "373.0"
+        },
+        {
+            "number": "10",
+            "opts": {
+                "hostname": "h10",
+                "ip": "10.10.20.1",
+                "nodeNum": 10,
+                "sched": "host"
+            },
+            "x": "847.0",
+            "y": "371.0"
+        },
+        {
+            "number": "9",
+            "opts": {
+                "hostname": "h9",
+                "ip": "10.10.10.3",
+                "nodeNum": 9,
+                "sched": "host"
+            },
+            "x": "758.0",
+            "y": "367.0"
+        },
+        {
+            "number": "4",
+            "opts": {
+                "hostname": "h4",
+                "ip": "10.1.2.1",
+                "nodeNum": 4,
+                "sched": "host"
+            },
+            "x": "284.0",
+            "y": "387.0"
+        },
+        {
+            "number": "2",
+            "opts": {
+                "hostname": "h2",
+                "ip": "10.1.1.2",
+                "nodeNum": 2,
+                "sched": "host"
+            },
+            "x": "99.0",
+            "y": "392.0"
+        },
+        {
+            "number": "12",
+            "opts": {
+                "hostname": "h12",
+                "ip": "10.10.20.3",
+                "nodeNum": 12,
+                "sched": "host"
+            },
+            "x": "1031.0",
+            "y": "375.0"
+        },
+        {
+            "number": "3",
+            "opts": {
+                "hostname": "h3",
+                "ip": "10.1.1.3",
+                "nodeNum": 3,
+                "sched": "host"
+            },
+            "x": "169.0",
+            "y": "392.0"
+        },
+        {
+            "number": "1",
+            "opts": {
+                "hostname": "h1",
+                "ip": "10.1.1.1",
+                "nodeNum": 1,
+                "sched": "host"
+            },
+            "x": "15.0",
+            "y": "391.0"
+        },
+        {
+            "number": "6",
+            "opts": {
+                "hostname": "h6",
+                "ip": "10.1.2.3",
+                "nodeNum": 6,
+                "sched": "host"
+            },
+            "x": "428.0",
+            "y": "389.0"
+        },
+        {
+            "number": "8",
+            "opts": {
+                "hostname": "h8",
+                "ip": "10.10.10.2",
+                "nodeNum": 8,
+                "sched": "host"
+            },
+            "x": "647.0",
+            "y": "371.0"
+        }
+    ],
+    "links": [
+        {
+            "dest": "s12",
+            "opts": {},
+            "src": "h4"
+        },
+        {
+            "dest": "s12",
+            "opts": {},
+            "src": "h5"
+        },
+        {
+            "dest": "s12",
+            "opts": {},
+            "src": "h6"
+        },
+        {
+            "dest": "s21",
+            "opts": {},
+            "src": "h7"
+        },
+        {
+            "dest": "s21",
+            "opts": {},
+            "src": "h8"
+        },
+        {
+            "dest": "s21",
+            "opts": {},
+            "src": "h9"
+        },
+        {
+            "dest": "s22",
+            "opts": {},
+            "src": "h10"
+        },
+        {
+            "dest": "s22",
+            "opts": {},
+            "src": "h11"
+        },
+        {
+            "dest": "s22",
+            "opts": {},
+            "src": "h12"
+        },
+        {
+            "dest": "s1",
+            "opts": {},
+            "src": "s11"
+        },
+        {
+            "dest": "s1",
+            "opts": {},
+            "src": "s12"
+        },
+        {
+            "dest": "s2",
+            "opts": {},
+            "src": "s21"
+        },
+        {
+            "dest": "s2",
+            "opts": {},
+            "src": "s22"
+        },
+        {
+            "dest": "s2",
+            "opts": {},
+            "src": "s1"
+        },
+        {
+            "dest": "s11",
+            "opts": {},
+            "src": "h1"
+        },
+        {
+            "dest": "s11",
+            "opts": {},
+            "src": "h2"
+        },
+        {
+            "dest": "s11",
+            "opts": {},
+            "src": "h3"
+        }
+    ],
+    "switches": [
+        {
+            "number": "6",
+            "opts": {
+                "controllers": [],
+                "dpid": "0000000000000006",
+                "hostname": "s22",
+                "netflow": "0",
+                "nodeNum": 6,
+                "sflow": "0",
+                "switchIP": "",
+                "switchType": "ovs"
+            },
+            "x": "932.0",
+            "y": "233.0"
+        },
+        {
+            "number": "5",
+            "opts": {
+                "controllers": [],
+                "dpid": "0000000000000005",
+                "hostname": "s21",
+                "netflow": "0",
+                "nodeNum": 5,
+                "sflow": "0",
+                "switchIP": "",
+                "switchType": "ovs"
+            },
+            "x": "628.0",
+            "y": "235.0"
+        },
+        {
+            "number": "4",
+            "opts": {
+                "controllers": [],
+                "dpid": "0000000000000004",
+                "hostname": "s12",
+                "netflow": "0",
+                "nodeNum": 4,
+                "sflow": "0",
+                "switchIP": "",
+                "switchType": "ovs"
+            },
+            "x": "307.0",
+            "y": "247.0"
+        },
+        {
+            "number": "1",
+            "opts": {
+                "controllers": [
+                    "c1"
+                ],
+                "dpid": "0000000000000001",
+                "hostname": "s1",
+                "netflow": "0",
+                "nodeNum": 1,
+                "sflow": "0",
+                "switchIP": "",
+                "switchType": "ovs"
+            },
+            "x": "190.0",
+            "y": "123.0"
+        },
+        {
+            "number": "2",
+            "opts": {
+                "controllers": [
+                    "c1"
+                ],
+                "dpid": "0000000000000002",
+                "hostname": "s2",
+                "netflow": "0",
+                "nodeNum": 2,
+                "sflow": "0",
+                "switchIP": "",
+                "switchType": "ovs"
+            },
+            "x": "751.0",
+            "y": "111.0"
+        },
+        {
+            "number": "3",
+            "opts": {
+                "controllers": [],
+                "dpid": "0000000000000003",
+                "hostname": "s11",
+                "netflow": "0",
+                "nodeNum": 3,
+                "sflow": "0",
+                "switchIP": "",
+                "switchType": "ovs"
+            },
+            "x": "57.0",
+            "y": "257.0"
+        }
+    ],
+    "version": "2"
+}

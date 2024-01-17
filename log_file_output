@@ -1,0 +1,77 @@
+INFO [05-07|00:21:05.162] Starting Geth on Ethereum mainnet... 
+INFO [05-07|00:21:05.162] Bumping default cache on mainnet         provided=1024 updated=4096
+INFO [05-07|00:21:05.164] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [05-07|00:21:05.164] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [05-07|00:21:05.164] Sanitizing cache to Go's GC limits       provided=4096 updated=1302
+INFO [05-07|00:21:05.164] Set global gas cap                       cap=25000000
+INFO [05-07|00:21:05.164] Allocated trie memory caches             clean=195.00MiB dirty=325.00MiB
+INFO [05-07|00:21:05.164] Allocated cache and file handles         database=/home/linux/.ethereum/geth/chaindata cache=649.00MiB handles=2048
+INFO [05-07|00:21:05.534] Opened ancient database                  database=/home/linux/.ethereum/geth/chaindata/ancient readonly=false
+INFO [05-07|00:21:05.875] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000, Berlin: 12244000, YOLO v3: <nil>, Engine: ethash}"
+INFO [05-07|00:21:05.878] Disk storage enabled for ethash caches   dir=/home/linux/.ethereum/geth/ethash count=3
+INFO [05-07|00:21:05.879] Disk storage enabled for ethash DAGs     dir=/home/linux/.ethash               count=2
+INFO [05-07|00:21:05.897] Initialising Ethereum protocol           network=1 dbversion=8
+INFO [05-07|00:21:06.032] Loaded most recent local header          number=49355 hash="8211e1…5b20c5" td=47376180504115554 age=5y9mo4w
+INFO [05-07|00:21:06.032] Loaded most recent local full block      number=0     hash="d4e567…cb8fa3" td=17179869184       age=52y1mo4d
+INFO [05-07|00:21:06.032] Loaded most recent local fast block      number=47413 hash="3b683e…ca3cb1" td=44531054146141243 age=5y9mo4w
+INFO [05-07|00:21:06.048] Loaded last fast-sync pivot marker       number=12360229
+INFO [05-07|00:21:06.052] Loaded local transaction journal         transactions=0 dropped=0
+INFO [05-07|00:21:06.053] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [05-07|00:21:06.105] Allocated fast sync bloom                size=650.00MiB
+WARN [05-07|00:21:06.128] Unclean shutdown detected                booted=2021-05-05T17:02:15-0800 age=1d7h18m
+WARN [05-07|00:21:06.128] Unclean shutdown detected                booted=2021-05-05T19:18:06-0800 age=1d5h3m
+INFO [05-07|00:21:06.128] Starting peer-to-peer node               instance=Geth/v1.10.2-stable-97d11b01/linux-amd64/go1.16
+INFO [05-07|00:21:06.298] New local node record                    seq=9 id=24041968e203a6a8 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [05-07|00:21:06.299] IPC endpoint opened                      url=/home/linux/.ethereum/geth.ipc
+INFO [05-07|00:21:06.311] Started P2P networking                   self=enode://7e2cc7b370067fec4815d9048c7b92ac88a82a8c44d7b92dbf0d6c82b713c2f52074af82f31a48c5d2d94c0602131d1b1c2b98a5266c87568a6572ba9789e08e@127.0.0.1:30303
+INFO [05-07|00:21:06.466] Etherbase automatically configured       address=0x5A28d351FA9D3d873999E72748f1F81bf06f60E1
+INFO [05-07|00:21:11.296] Initialized state bloom                  items=115513 errorrate=0.000 elapsed=5.188s
+INFO [05-07|00:21:18.022] Looking for peers                        peercount=0 tried=0 static=0
+INFO [05-07|00:21:28.224] Looking for peers                        peercount=0 tried=8 static=0
+INFO [05-07|00:21:38.248] Looking for peers                        peercount=0 tried=22 static=0
+INFO [05-07|00:21:45.635] IPC endpoint closed                      url=/home/linux/.ethereum/geth.ipc
+INFO [05-07|00:21:45.695] Deallocated state bloom                  items=115513 errorrate=0.000
+INFO [05-07|00:21:45.696] Ethereum protocol stopped 
+INFO [05-07|00:21:45.696] Transaction pool stopped 
+INFO [05-07|00:21:45.696] Writing snapshot state to disk           root="d7f897…0f0544"
+INFO [05-07|00:21:45.696] Persisted trie from memory database      nodes=0 size=0.00B     time="9.106µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-07|00:21:45.696] Writing clean trie cache to disk         path=/home/linux/.ethereum/geth/triecache threads=2
+ERROR[05-07|00:21:45.716] Failed to persist clean trie cache       error="cannot remove old contents at \"/home/linux/.ethereum/geth/triecache\": openfdat /home/linux/.ethereum/geth/triecache: permission denied"
+INFO [05-07|00:21:45.716] Blockchain stopped 
+INFO [05-07|00:21:54.046] Starting Geth on Ethereum mainnet... 
+INFO [05-07|00:21:54.048] Bumping default cache on mainnet         provided=1024 updated=4096
+INFO [05-07|00:21:54.050] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [05-07|00:21:54.050] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [05-07|00:21:54.050] Sanitizing cache to Go's GC limits       provided=4096 updated=1302
+INFO [05-07|00:21:54.051] Set global gas cap                       cap=25000000
+INFO [05-07|00:21:54.051] Allocated trie memory caches             clean=195.00MiB dirty=325.00MiB
+INFO [05-07|00:21:54.051] Allocated cache and file handles         database=/home/linux/.ethereum/geth/chaindata cache=649.00MiB handles=2048
+INFO [05-07|00:21:54.066] Opened ancient database                  database=/home/linux/.ethereum/geth/chaindata/ancient readonly=false
+INFO [05-07|00:21:54.074] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000, Berlin: 12244000, YOLO v3: <nil>, Engine: ethash}"
+INFO [05-07|00:21:54.074] Disk storage enabled for ethash caches   dir=/home/linux/.ethereum/geth/ethash count=3
+INFO [05-07|00:21:54.074] Disk storage enabled for ethash DAGs     dir=/home/linux/.ethash               count=2
+INFO [05-07|00:21:54.074] Initialising Ethereum protocol           network=1 dbversion=8
+INFO [05-07|00:21:54.075] Loaded most recent local header          number=49355 hash="8211e1…5b20c5" td=47376180504115554 age=5y9mo4w
+INFO [05-07|00:21:54.075] Loaded most recent local full block      number=0     hash="d4e567…cb8fa3" td=17179869184       age=52y1mo4d
+INFO [05-07|00:21:54.075] Loaded most recent local fast block      number=47413 hash="3b683e…ca3cb1" td=44531054146141243 age=5y9mo4w
+INFO [05-07|00:21:54.075] Loaded last fast-sync pivot marker       number=12360229
+INFO [05-07|00:21:54.075] Loaded local transaction journal         transactions=0 dropped=0
+INFO [05-07|00:21:54.075] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [05-07|00:21:54.086] Allocated fast sync bloom                size=650.00MiB
+WARN [05-07|00:21:54.086] Unclean shutdown detected                booted=2021-05-05T17:02:15-0800 age=1d7h19m
+WARN [05-07|00:21:54.086] Unclean shutdown detected                booted=2021-05-05T19:18:06-0800 age=1d5h3m
+INFO [05-07|00:21:54.086] Starting peer-to-peer node               instance=Geth/v1.10.2-stable-97d11b01/linux-amd64/go1.16
+INFO [05-07|00:21:54.184] New local node record                    seq=10 id=24041968e203a6a8 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [05-07|00:21:54.187] IPC endpoint opened                      url=/home/linux/.ethereum/geth.ipc
+INFO [05-07|00:21:54.209] Started P2P networking                   self=enode://7e2cc7b370067fec4815d9048c7b92ac88a82a8c44d7b92dbf0d6c82b713c2f52074af82f31a48c5d2d94c0602131d1b1c2b98a5266c87568a6572ba9789e08e@127.0.0.1:30303
+INFO [05-07|00:21:54.328] Etherbase automatically configured       address=0x5A28d351FA9D3d873999E72748f1F81bf06f60E1
+INFO [05-07|00:21:54.898] Initialized state bloom                  items=115513 errorrate=0.000 elapsed=811.161ms
+INFO [05-07|00:22:04.179] IPC endpoint closed                      url=/home/linux/.ethereum/geth.ipc
+INFO [05-07|00:22:04.228] Deallocated state bloom                  items=115513 errorrate=0.000
+INFO [05-07|00:22:04.229] Ethereum protocol stopped 
+INFO [05-07|00:22:04.229] Transaction pool stopped 
+INFO [05-07|00:22:04.230] Writing snapshot state to disk           root="d7f897…0f0544"
+INFO [05-07|00:22:04.230] Persisted trie from memory database      nodes=0 size=0.00B     time="8.219µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-07|00:22:04.230] Writing clean trie cache to disk         path=/home/linux/.ethereum/geth/triecache threads=2
+ERROR[05-07|00:22:04.233] Failed to persist clean trie cache       error="cannot remove old contents at \"/home/linux/.ethereum/geth/triecache\": openfdat /home/linux/.ethereum/geth/triecache: permission denied"
+INFO [05-07|00:22:04.233] Blockchain stopped 

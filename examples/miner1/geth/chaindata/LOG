@@ -1,0 +1,13 @@
+=============== May 9, 2021 (AKDT) ===============
+17:43:55.860164 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:43:55.865486 db@open opening
+17:43:55.895042 version@stat F·[] S·0B[] Sc·[]
+17:43:55.903075 db@janitor F·2 G·0
+17:43:55.903150 db@open done T·37.563678ms
+17:43:56.478404 memdb@flush N·21264 S·2MiB
+17:43:56.523567 memdb@flush created L0@3 N·21264 S·1MiB "\x00\x00\xae..\x82\x88\x11,v9389":"\xff\xfc\x94..\xa5\x05\xa1,v9518"
+17:43:56.523610 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+17:43:56.656232 memdb@flush committed F·1 T·177.776251ms
+17:43:56.656719 journal@remove removed @1
+17:43:56.656738 table@compaction range L-1 "a":"b"
+17:43:56.656774 table@compaction L0·1 -> L1·0 S·1MiB Q·21265

@@ -1,0 +1,167 @@
+INFO [03-31|17:28:18.904] Starting Geth on Ethereum mainnet... 
+INFO [03-31|17:28:18.905] Bumping default cache on mainnet         provided=1024 updated=4096
+WARN [03-31|17:28:18.906] Sanitizing cache to Go's GC limits       provided=4096 updated=1302
+INFO [03-31|17:28:18.907] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [03-31|17:28:18.919] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [03-31|17:28:18.932] Set global gas cap                       cap=25000000
+INFO [03-31|17:28:18.932] Allocated trie memory caches             clean=325.00MiB dirty=325.00MiB
+INFO [03-31|17:28:18.933] Allocated cache and file handles         database=/home/linux/.ethereum/geth/chaindata cache=651.00MiB handles=2048
+INFO [03-31|17:28:18.977] Opened ancient database                  database=/home/linux/.ethereum/geth/chaindata/ancient
+INFO [03-31|17:28:18.978] Writing default main-net genesis block 
+INFO [03-31|17:28:19.219] Persisted trie from memory database      nodes=12356 size=1.78MiB time=48.854974ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [03-31|17:28:19.219] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000, YOLO v2: <nil>, Engine: ethash}"
+INFO [03-31|17:28:19.219] Disk storage enabled for ethash caches   dir=/home/linux/.ethereum/geth/ethash count=3
+INFO [03-31|17:28:19.220] Disk storage enabled for ethash DAGs     dir=/home/linux/.ethash               count=2
+INFO [03-31|17:28:19.221] Initialising Ethereum protocol           versions="[65 64 63]" network=1 dbversion=<nil>
+WARN [03-31|17:28:19.221] Upgrade blockchain database version      from=<nil> to=8
+INFO [03-31|17:28:19.221] Loaded most recent local header          number=0 hash="d4e567…cb8fa3" td=17179869184 age=51y11mo4w
+INFO [03-31|17:28:19.221] Loaded most recent local full block      number=0 hash="d4e567…cb8fa3" td=17179869184 age=51y11mo4w
+INFO [03-31|17:28:19.221] Loaded most recent local fast block      number=0 hash="d4e567…cb8fa3" td=17179869184 age=51y11mo4w
+INFO [03-31|17:28:19.222] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [03-31|17:28:19.233] Allocated fast sync bloom                size=650.00MiB
+INFO [03-31|17:28:19.240] Starting peer-to-peer node               instance=Geth/v1.9.24-stable-cc05b050/linux-amd64/go1.15.5
+INFO [03-31|17:28:19.268] New local node record                    seq=1 id=24041968e203a6a8 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [03-31|17:28:19.277] IPC endpoint opened                      url=/home/linux/.ethereum/geth.ipc
+INFO [03-31|17:28:19.314] Started P2P networking                   self=enode://7e2cc7b370067fec4815d9048c7b92ac88a82a8c44d7b92dbf0d6c82b713c2f52074af82f31a48c5d2d94c0602131d1b1c2b98a5266c87568a6572ba9789e08e@127.0.0.1:30303
+WARN [03-31|17:28:19.453] Served eth_coinbase                      reqid=3 t="15.498µs" err="etherbase must be explicitly specified"
+INFO [03-31|17:28:20.861] Initialized fast sync bloom              items=12356 errorrate=0.000 elapsed=1.625s
+INFO [03-31|17:28:22.841] New local node record                    seq=2 id=24041968e203a6a8 ip=123.121.146.201 udp=30834 tcp=30303
+INFO [03-31|17:28:29.348] Looking for peers                        peercount=0 tried=15 static=0
+INFO [03-31|17:28:39.755] Looking for peers                        peercount=0 tried=16 static=0
+INFO [03-31|17:28:49.788] Looking for peers                        peercount=0 tried=47 static=0
+INFO [03-31|17:28:59.834] Looking for peers                        peercount=0 tried=22 static=0
+INFO [03-31|17:29:01.758] IPC endpoint closed                      url=/home/linux/.ethereum/geth.ipc
+INFO [03-31|17:29:01.778] Deallocated fast sync bloom              items=12356 errorrate=0.000
+INFO [03-31|17:29:01.778] Ethereum protocol stopped 
+INFO [03-31|17:29:01.778] Transaction pool stopped 
+INFO [03-31|17:29:01.778] Writing clean trie cache to disk         path=/home/linux/.ethereum/geth/triecache threads=2
+INFO [03-31|17:29:01.780] Persisted the clean trie cache           path=/home/linux/.ethereum/geth/triecache elapsed=1.415ms
+INFO [03-31|17:29:01.780] Blockchain stopped 
+INFO [03-31|17:29:09.761] Starting Geth on Ethereum mainnet... 
+INFO [03-31|17:29:09.761] Bumping default cache on mainnet         provided=1024 updated=4096
+WARN [03-31|17:29:09.761] Sanitizing cache to Go's GC limits       provided=4096 updated=1302
+INFO [03-31|17:29:09.762] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [03-31|17:29:09.762] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [03-31|17:29:09.763] Set global gas cap                       cap=25000000
+INFO [03-31|17:29:09.763] Allocated trie memory caches             clean=325.00MiB dirty=325.00MiB
+INFO [03-31|17:29:09.764] Allocated cache and file handles         database=/home/linux/.ethereum/geth/chaindata cache=651.00MiB handles=2048
+INFO [03-31|17:29:09.832] Opened ancient database                  database=/home/linux/.ethereum/geth/chaindata/ancient
+INFO [03-31|17:29:09.833] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000, YOLO v2: <nil>, Engine: ethash}"
+INFO [03-31|17:29:09.833] Disk storage enabled for ethash caches   dir=/home/linux/.ethereum/geth/ethash count=3
+INFO [03-31|17:29:09.833] Disk storage enabled for ethash DAGs     dir=/home/linux/.ethash               count=2
+INFO [03-31|17:29:09.833] Initialising Ethereum protocol           versions="[65 64 63]" network=1 dbversion=8
+INFO [03-31|17:29:09.834] Loaded most recent local header          number=0 hash="d4e567…cb8fa3" td=17179869184 age=51y11mo4w
+INFO [03-31|17:29:09.834] Loaded most recent local full block      number=0 hash="d4e567…cb8fa3" td=17179869184 age=51y11mo4w
+INFO [03-31|17:29:09.853] Loaded most recent local fast block      number=0 hash="d4e567…cb8fa3" td=17179869184 age=51y11mo4w
+INFO [03-31|17:29:09.854] Loaded local transaction journal         transactions=0 dropped=0
+INFO [03-31|17:29:09.854] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [03-31|17:29:09.877] Allocated fast sync bloom                size=650.00MiB
+INFO [03-31|17:29:09.877] Starting peer-to-peer node               instance=Geth/v1.9.24-stable-cc05b050/linux-amd64/go1.15.5
+INFO [03-31|17:29:09.954] New local node record                    seq=3 id=24041968e203a6a8 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [03-31|17:29:09.956] IPC endpoint opened                      url=/home/linux/.ethereum/geth.ipc
+INFO [03-31|17:29:09.966] Started P2P networking                   self=enode://7e2cc7b370067fec4815d9048c7b92ac88a82a8c44d7b92dbf0d6c82b713c2f52074af82f31a48c5d2d94c0602131d1b1c2b98a5266c87568a6572ba9789e08e@127.0.0.1:30303
+WARN [03-31|17:29:10.133] Served eth_coinbase                      reqid=3 t="46.218µs" err="etherbase must be explicitly specified"
+INFO [03-31|17:29:10.506] Initialized fast sync bloom              items=12356 errorrate=0.000 elapsed=625.242ms
+INFO [03-31|17:29:19.974] Looking for peers                        peercount=0 tried=21 static=0
+INFO [03-31|17:29:23.003] New local node record                    seq=4 id=24041968e203a6a8 ip=123.121.146.201 udp=30834 tcp=30303
+INFO [03-31|17:29:30.108] Looking for peers                        peercount=0 tried=17 static=0
+INFO [03-31|17:29:35.309] Block synchronisation started 
+INFO [03-31|17:29:41.574] Looking for peers                        peercount=0 tried=43 static=0
+INFO [03-31|17:29:51.686] Looking for peers                        peercount=1 tried=39 static=0
+WARN [03-31|17:29:58.075] Dropping unsynced node during fast sync  id=348ab3faca0a5950 conn=dyndial addr=163.172.53.103:30303 type=Geth/v1.9.2-stable-e...
+INFO [03-31|17:30:01.701] Looking for peers                        peercount=1 tried=43 static=0
+INFO [03-31|17:30:11.786] Looking for peers                        peercount=1 tried=28 static=0
+INFO [03-31|17:30:21.936] Looking for peers                        peercount=1 tried=36 static=0
+INFO [03-31|17:30:32.162] Looking for peers                        peercount=2 tried=38 static=0
+WARN [03-31|17:30:34.335] Dropping unsynced node during fast sync  id=cda1b4d8c2c39c57 conn=dyndial addr=45.77.49.160:30303   type=Geth/v1.9.25-stable-...
+WARN [03-31|17:30:35.310] Synchronisation failed, dropping peer    peer=3c9e2afbc561e37f err=timeout
+INFO [03-31|17:30:42.324] Looking for peers                        peercount=1 tried=16 static=0
+INFO [03-31|17:30:52.409] Looking for peers                        peercount=1 tried=60 static=0
+INFO [03-31|17:30:55.838] Imported new block headers               count=192 elapsed=732.335ms number=192 hash="723899…123390" age=5y9mo1d
+INFO [03-31|17:30:55.850] Downloader queue stats                   receiptTasks=0 blockTasks=188 itemSize=109.57B throttle=8192
+INFO [03-31|17:30:55.851] Migrated ancient blocks                  count=1   elapsed="223.966µs"
+INFO [03-31|17:30:55.854] Imported new block receipts              count=2   elapsed=3.686ms     number=2   hash="b495a1…4698c9" age=5y9mo1d   size=1.69KiB
+INFO [03-31|17:30:55.862] Imported new block headers               count=192 elapsed=23.027ms    number=384 hash="d3d5d5…c79cf3" age=5y9mo1d
+INFO [03-31|17:30:56.088] Imported new state entries               count=209 elapsed="3.73µs"    processed=209 pending=3345 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [03-31|17:30:56.339] Imported new block receipts              count=4   elapsed=3.315ms     number=6   hash="1f1aed…6b326e" age=5y9mo1d   size=3.30KiB
+INFO [03-31|17:30:56.365] Imported new block headers               count=192 elapsed=26.192ms    number=576 hash="41a746…6a8b38" age=5y9mo1d
+INFO [03-31|17:30:57.471] Imported new block receipts              count=59  elapsed=14.532ms    number=65  hash="35209c…d130dd" age=5y9mo1d   size=37.50KiB
+INFO [03-31|17:30:57.489] Imported new state entries               count=384 elapsed="6.227µs"   processed=593 pending=9489 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [03-31|17:30:57.536] Imported new block headers               count=192 elapsed=31.717ms    number=768 hash="5cfe57…c19c3a" age=5y9mo1d
+INFO [03-31|17:30:57.774] Imported new block receipts              count=83  elapsed=14.678ms    number=148 hash="78c891…a5a459" age=5y9mo1d   size=58.52KiB
+INFO [03-31|17:30:59.753] Imported new state entries               count=384 elapsed="4.097µs"   processed=977 pending=15629 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [03-31|17:30:59.891] Imported new block headers               count=192 elapsed=38.798ms    number=960 hash="916910…1d0e2a" age=5y9mo1d
+INFO [03-31|17:30:59.984] Imported new block receipts              count=469 elapsed=25.291ms    number=617 hash="86fb1d…88e635" age=5y9mo1d   size=343.66KiB
+INFO [03-31|17:31:02.464] Looking for peers                        peercount=1 tried=27 static=0
+INFO [03-31|17:31:03.725] Imported new block headers               count=192 elapsed=45.575ms    number=1152 hash="495b33…0fc327" age=5y9mo1d
+INFO [03-31|17:31:03.750] Imported new block receipts              count=343 elapsed=62.243ms    number=960  hash="916910…1d0e2a" age=5y9mo1d   size=250.09KiB
+INFO [03-31|17:31:03.754] Imported new block receipts              count=2   elapsed=3.919ms     number=962  hash="a0f7c0…e27ca7" age=5y9mo1d   size=1.13KiB
+INFO [03-31|17:31:05.435] Imported new state entries               count=768 elapsed=4.415ms     processed=1745 pending=17837 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [03-31|17:31:05.518] Imported new block headers               count=192 elapsed=29.791ms    number=1344 hash="84b787…0e2783" age=5y9mo1d
+INFO [03-31|17:31:05.569] Imported new block receipts              count=193 elapsed=12.121ms    number=1155 hash="312614…5a9507" age=5y9mo1d   size=134.83KiB
+INFO [03-31|17:31:06.984] Imported new block headers               count=192 elapsed=27.270ms    number=1536 hash="b787b8…7d0da3" age=5y9mo1d
+INFO [03-31|17:31:07.442] Imported new block receipts              count=189 elapsed=45.963ms    number=1344 hash="84b787…0e2783" age=5y9mo1d   size=136.69KiB
+INFO [03-31|17:31:08.473] Imported new state entries               count=768 elapsed=9.051ms     processed=2513 pending=17314 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [03-31|17:31:08.572] Imported new block headers               count=192 elapsed=96.839ms    number=1728 hash="d8c37e…b4f264" age=5y9mo1d
+INFO [03-31|17:31:08.601] Imported new block receipts              count=192 elapsed=128.127ms   number=1536 hash="b787b8…7d0da3" age=5y9mo1d   size=134.29KiB
+INFO [03-31|17:31:08.605] Imported new block receipts              count=5   elapsed=3.031ms     number=1541 hash="90afd6…ca6647" age=5y9mo1d   size=2.84KiB
+INFO [03-31|17:31:08.852] Imported new block headers               count=192 elapsed=34.682ms    number=1920 hash="80013e…3549c2" age=5y9mo1d
+WARN [03-31|17:31:08.877] Dropping unsynced node during fast sync  id=ae7f6b3cb018f322 conn=dyndial addr=149.28.112.51:30303  type=Geth/v1.9.25-stable-...
+INFO [03-31|17:31:10.262] Imported new block headers               count=192 elapsed=17.036ms    number=2112 hash="88983b…9a2ec8" age=5y9mo1d
+INFO [03-31|17:31:10.584] Imported new block receipts              count=571 elapsed=43.089ms    number=2112 hash="88983b…9a2ec8" age=5y9mo1d   size=387.03KiB
+INFO [03-31|17:31:12.832] Looking for peers                        peercount=2 tried=36 static=0
+INFO [03-31|17:31:13.970] Imported new state entries               count=1152 elapsed=24.201ms    processed=3665 pending=16565 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [03-31|17:31:17.016] Imported new state entries               count=768  elapsed=9.220ms     processed=4433 pending=18042 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [03-31|17:31:25.768] Imported new state entries               count=2304 elapsed=39.380ms    processed=6737 pending=16375 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [03-31|17:31:28.835] Imported new state entries               count=768  elapsed=11.616ms    processed=7505 pending=16953 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [03-31|17:31:32.101] Imported new state entries               count=1152 elapsed=27.715ms    processed=8657 pending=16263 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [03-31|17:31:33.576] Looking for peers                        peercount=2 tried=35 static=0
+INFO [03-31|17:31:35.038] Imported new state entries               count=768  elapsed=16.359ms    processed=9425 pending=16017 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+WARN [03-31|17:31:36.836] Dropping unsynced node during fast sync  id=5cd43e962fec90eb conn=dyndial addr=118.31.110.141:30303 type=
+INFO [03-31|17:31:37.309] Imported new state entries               count=768  elapsed=9.322ms     processed=10193 pending=16462 trieretry=384 coderetry=0 duplicate=0 unexpected=0
+INFO [03-31|17:31:41.006] Imported new state entries               count=768  elapsed=6.405ms     processed=10961 pending=18617 trieretry=0   coderetry=0 duplicate=0 unexpected=0
+WARN [03-31|17:31:44.464] Dropping unsynced node during fast sync  id=ea1a7484fe1ff237 conn=dyndial addr=149.28.43.32:30303   type=Geth/v1.9.25-stable-...
+INFO [03-31|17:31:45.993] Imported new state entries               count=768  elapsed=11.076ms    processed=11729 pending=19556 trieretry=384 coderetry=0 duplicate=0 unexpected=0
+INFO [03-31|17:31:48.040] Imported new block headers               count=2048 elapsed=185.407ms   number=4160 hash="8009ba…51f763" age=5y9mo1d
+INFO [03-31|17:31:48.278] Imported new block headers               count=2048 elapsed=229.611ms   number=6208 hash="a118b8…fa05ea" age=5y9mo1d
+INFO [03-31|17:31:48.278] Imported new block receipts              count=7    elapsed=125.369ms   number=2119 hash="5b91aa…00fdf8" age=5y9mo1d   size=3.98KiB
+INFO [03-31|17:31:48.505] Imported new block headers               count=2048 elapsed=220.534ms   number=8256 hash="41c51c…f26b87" age=5y9mo21h
+INFO [03-31|17:31:48.520] Imported new block receipts              count=709  elapsed=63.419ms    number=2828 hash="6953b2…34bda9" age=5y9mo1d   size=475.49KiB
+INFO [03-31|17:31:48.703] Imported new block headers               count=2048 elapsed=186.920ms   number=10304 hash="72cc78…335a72" age=5y9mo14h
+INFO [03-31|17:31:48.899] Imported new block headers               count=2048 elapsed=189.623ms   number=12352 hash="e75f81…0bbdeb" age=5y9mo7h
+INFO [03-31|17:31:49.104] Imported new block headers               count=2048 elapsed=197.056ms   number=14400 hash="b68fa2…fdd0f2" age=5y8mo4w
+INFO [03-31|17:31:49.327] Imported new block headers               count=2048 elapsed=205.818ms   number=16448 hash="6a9a99…2390fe" age=5y8mo4w
+INFO [03-31|17:31:49.539] Imported new block headers               count=2048 elapsed=205.585ms   number=18496 hash="872f15…9853ec" age=5y8mo4w
+INFO [03-31|17:31:49.805] Imported new block headers               count=2048 elapsed=258.662ms   number=20544 hash="7e16cf…2d8cb0" age=5y8mo4w
+INFO [03-31|17:31:50.026] Imported new block headers               count=1920 elapsed=213.969ms   number=22464 hash="4ee28c…8b266d" age=5y8mo4w
+INFO [03-31|17:31:51.323] Imported new state entries               count=1536 elapsed=74.780ms    processed=13265 pending=18556 trieretry=0   coderetry=0 duplicate=0 unexpected=0
+INFO [03-31|17:31:54.931] Imported new state entries               count=1152 elapsed=39.940ms    processed=14417 pending=17468 trieretry=0   coderetry=0 duplicate=0 unexpected=0
+invalid command: "consle"
+INFO [05-07|00:02:43.681] Starting Geth in ephemeral dev mode... 
+INFO [05-07|00:02:43.683] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [05-07|00:02:43.683] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [05-07|00:02:43.704] Set global gas cap                       cap=25000000
+INFO [05-07|00:03:01.461] Using developer account                  address=0x625B5FcFe0CDc4B3a57AcC34297Ba7Dec1057b1F
+INFO [05-07|00:03:01.498] Allocated cache and file handles         database=/home/linux/testchain/geth/chaindata cache=256.00MiB handles=2048 readonly=true
+Fatal: Could not open database: stat /home/linux/testchain/geth/chaindata: no such file or directory
+INFO [05-07|00:06:39.440] Starting Geth in ephemeral dev mode... 
+INFO [05-07|00:06:39.443] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [05-07|00:06:39.443] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [05-07|00:06:39.444] Set global gas cap                       cap=25000000
+INFO [05-07|00:06:40.212] Using developer account                  address=0x625B5FcFe0CDc4B3a57AcC34297Ba7Dec1057b1F
+INFO [05-07|00:06:40.212] Allocated cache and file handles         database=/home/linux/testchain/geth/chaindata cache=256.00MiB handles=2048 readonly=true
+Fatal: Could not open database: stat /home/linux/testchain/geth/chaindata: no such file or directory
+INFO [05-07|00:07:13.113] Starting Geth in ephemeral dev mode... 
+INFO [05-07|00:07:13.115] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [05-07|00:07:13.115] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [05-07|00:07:13.116] Set global gas cap                       cap=25000000
+INFO [05-07|00:07:13.849] Using developer account                  address=0x625B5FcFe0CDc4B3a57AcC34297Ba7Dec1057b1F
+INFO [05-07|00:07:13.849] Allocated cache and file handles         database=/home/linux/testchain/geth/chaindata cache=256.00MiB handles=2048 readonly=true
+Fatal: Could not open database: file does not exist
+INFO [05-07|00:08:46.160] Starting Geth in ephemeral dev mode... 
+INFO [05-07|00:08:46.162] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [05-07|00:08:46.162] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [05-07|00:08:46.162] Set global gas cap                       cap=25000000
+INFO [05-07|00:08:50.210] Using developer account                  address=0xe0c33293DC47240d7bBC152eF21130a8fA392D5d
+INFO [05-07|00:08:50.210] Allocated cache and file handles         database=/home/linux/testchain/geth/chaindata/geth/chaindata cache=256.00MiB handles=2048 readonly=true
+Fatal: Could not open database: stat /home/linux/testchain/geth/chaindata/geth/chaindata: no such file or directory
